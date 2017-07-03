@@ -1,0 +1,59 @@
+/*导航*/
+.product-list-title > ul {
+  overflow: hidden;
+}
+.product-list-title > ul > li {
+  float: left;
+}
+.product-list-title > ul > a {
+  float: right;
+  display: inline-block;
+  height: 28px;
+  background-color: #d0d0d0;
+  border-bottom: 1px solid #bababa;
+  box-shadow: 0 1px 2px #888;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 28px;
+  overflow: hidden;
+  border: none;
+  padding: 0 16px;
+  margin-top: 4px;
+  margin-right: 8px;
+}
+/*内容*/
+.product-list > ul > li {
+  overflow: hidden;
+  box-sizing: border-box;
+  padding-left: 120px;
+  position: relative;
+}
+.product-list > ul > li > a > img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.product-list > ul > li > a > div {
+  float: left;
+}
+.product-list > ul > li > a > div > div:nth-child(1) {
+  line-height: 22px;
+  min-height: 44px;
+  font-size: 14px;
+  color: #333333;
+}
+.product-list > ul > li > a > div > div:nth-child(2) {
+  font-size: 18px;
+  color: #ea3900;
+  vertical-align: middle;
+}
+.product-list > ul > li > a > div > div:nth-child(3) {
+  color: #a1a1a1;
+  font-size: 12px;
+}

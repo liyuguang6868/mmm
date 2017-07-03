@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>国内折扣2级页面</title>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/discount.css"/>
+</head>
+<body>
+<header id="header" class="header">
+    <a href="inlanddiscount.html">
+        <div class="back">
+            ☜
+        </div>
+    </a>
+    <h1>国内折扣</h1>
+    <div class="appdown">
+        <a href="javascript:;" title="手机app下载">
+            <img src="images/header_app.png" alt="手机app下载">
+        </a>
+    </div>
+</header>
+
+<section id="content">
+    <script type="text/html" id="contentTmp">
+        {{each result as v i}}
+        <div>
+            <div>{{v.productName}}</div>
+            <div>{{v.productFrom}}{{v.productTime}}{{v.productTips}}</div>
+            <div>{{#v.productImg}}</div>
+            <div class="conn">
+                <p>{{v.productInfo}}</p>
+                <p></p>
+                <p>{{v.productInfo1}}</p>
+                <p>{{#v.productImg}}</p>
+            </div>
+        </div>
+        <div>{{#v.productCity}}</div>
+        <a href="javascript:;" class="button">前往购买</a>
+        <div><img src="images/mmbweixin2.png" alt="图裂了"/></div>
+        {{#v.productComment}}
+        {{/each}}
+    </script>
+</section>
+
+<footer id="ctl00_foot">
+    <div class="foot_top">
+        <a href="javascript:;">登录</a>
+        <a href="javascript:;">注册</a>
+        <a href="#" style="width: 40%; border: 0;">
+            <img src="http://www.zuyushop.com/wap/images/top.jpg" width="15" height="15">返回顶部
+        </a>
+    </div>
+    <div class="footer">
+        <p>
+            <a href="javascript:;" style="color: Red;">手机APP下载</a>
+            <a href="index.html">慢慢买手机版</a> -- 掌上比价平台
+        </p>
+        <p>m.manmanbuy.com</p>
+    </div>
+</footer>
+</body>
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/artTemplate/template.js"></script>
+<script src="js/Route.js"></script>
+<script src="js/discount.js"></script>
+
+</html>

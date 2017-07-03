@@ -1,0 +1,80 @@
+.header1 {
+  padding: 0 1.5625rem;
+  position: relative;
+  background-color: red !important;
+}
+.header1 .back {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  position: absolute;
+  left: 0;
+  top: -10px;
+  text-align: center;
+  font-size: 50px;
+  color: #FFFFFF;
+}
+.header1 h1 {
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  color: #FFFFFF;
+}
+#couponproduct > div:nth-child(1) {
+  font-size: 12px;
+  text-align: center;
+  color: #999;
+  margin: 8px 0px;
+}
+#couponproduct > ul > li > a {
+  display: block;
+  border-bottom: 1px solid #e7e7e7;
+  background-size: 20px 20px;
+  list-style: none;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  box-sizing: content-box;
+  overflow: hidden;
+}
+#couponproduct > ul > li > a > div:nth-child(1) {
+  float: left;
+  width: 100px;
+  height: 80px;
+  box-sizing: border-box;
+}
+#couponproduct > ul > li > a > div:nth-child(1) img {
+  width: 100%;
+  height: 100%;
+}
+#couponproduct > ul > li > a > div:nth-child(2) {
+  height: 80px;
+  padding-left: 15px;
+  padding-right: 30px;
+  overflow: hidden;
+  position: relative;
+}
+#couponproduct > ul > li > a > div:nth-child(2) > p:nth-child(1) {
+  margin: 0px;
+  padding: 0px;
+  word-break: break-all;
+  text-align: justify;
+  font-size: 14px;
+  font-weight: normal;
+  color: #333333;
+  line-height: 20px;
+}
+#couponproduct > ul > li > a > div:nth-child(2) > h2:nth-child(2) {
+  font-size: 14px;
+  margin-top: 5px;
+}
+#couponproduct > ul > li > a > div:nth-child(2) > p:nth-child(3) {
+  font-size: 12px;
+  color: #EE7700;
+  margin-top: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding-left: 15px;
+}

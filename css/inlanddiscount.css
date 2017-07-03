@@ -1,0 +1,93 @@
+#header {
+  padding: 0 1.5625rem;
+  position: relative;
+}
+#header .back {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  position: absolute;
+  left: 0;
+  top: -10px;
+  text-align: center;
+  font-size: 50px;
+  color: #FFFFFF;
+}
+#header h1 {
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  color: #FFFFFF;
+}
+#content > div {
+  max-width: 960px;
+  background-color: #fff;
+  text-align: left;
+  font-size: 14px;
+  margin: 0 auto;
+}
+#content > div > ul {
+  width: 100%;
+}
+#content > div > ul li {
+  padding-left: 10px;
+  box-sizing: border-box;
+  float: left;
+  display: table-cell;
+  padding: 10px 0 0 10px;
+  text-align: center;
+  vertical-align: middle;
+  background: none;
+  width: 50%;
+  background: #FFFFFF;
+  border: 1px solid #eeeeee;
+}
+#content > div > ul li a {
+  display: block;
+}
+#content > div > ul li a .img {
+  margin: 10px auto;
+  overflow: hidden;
+  width: 140px;
+  height: 140px;
+}
+#content > div > ul li a .img img {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+#content > div > ul li a > div:nth-child(2) > p:nth-child(1) {
+  color: #333333;
+  padding: 0 8px;
+  font-size: 14px;
+  text-align: left;
+  text-align-last: left;
+  line-height: 18px;
+  height: 36px;
+  word-break: break-all;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+#content > div > ul li a > div:nth-child(2) > p:nth-child(2) {
+  color: #ff6c00;
+  margin-top: 4px;
+  font-size: 14px;
+  padding: 0 8px;
+  text-align: left;
+  text-align-last: left;
+  word-break: break-all;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  height: 18px;
+  line-height: 18px;
+}
+#content > div > ul li a > div:nth-child(2) > p:nth-child(3) {
+  color: #a1a1a1;
+  font-size: 12px;
+  text-align: left;
+  padding-left: 8px;
+}

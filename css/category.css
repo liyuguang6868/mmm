@@ -1,0 +1,51 @@
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+#table > ul > li > a {
+  height: 40px;
+  width: 100%;
+  background-color: #f1f1f1;
+  line-height: 40px;
+  font-size: 16px;
+  color: #000;
+  display: block;
+  font-weight: bold;
+  border-bottom: 1px solid #ccc;
+  padding-left: 16px;
+}
+#table > ul > li > a > i {
+  height: 10px;
+  width: 40px;
+  display: inline-block;
+  float: right;
+  background: url("http://www.zuyushop.com/wap/images/arrow1.gif") no-repeat;
+  margin-top: 15px;
+}
+#table > ul > li #oul {
+  overflow: hidden;
+}
+#table > ul > li #oul > li {
+  display: inline-block;
+  width: 33.33%;
+  border-bottom: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  float: left;
+}
+#table > ul > li #oul > li > a {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  background-color: #f9f9f9;
+  display: block;
+  width: 100%;
+  color: #333;
+}

@@ -1,0 +1,74 @@
+/*ͷ��*/
+#header {
+  padding: 0 1.5625rem;
+  position: relative;
+}
+#header .back {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  position: absolute;
+  left: 0;
+  top: -10px;
+  text-align: center;
+  font-size: 50px;
+  color: #FFFFFF;
+}
+#header h1 {
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  color: #FFFFFF;
+}
+/*����*/
+#content ul {
+  overflow: hidden;
+  max-width: 1000px;
+  margin: 0 auto;
+  min-width: 320px;
+}
+#content ul li {
+  padding-left: 4.6875rem;
+  margin-bottom: 0.625rem;
+  position: relative;
+  min-height: 3.125rem;
+  overflow: hidden;
+  margin-bottom: 50px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#content ul li .img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 3.125rem;
+  height: 3.125rem;
+}
+#content ul li .img img {
+  width: 100%;
+  height: 100%;
+}
+#content ul li div:nth-child(2) div:nth-child(1) {
+  color: #333333;
+  word-break: break-all;
+  font-size: 15px;
+  line-height: 19px;
+  min-height: 57px;
+  text-align: left;
+  font-weight: normal;
+}
+#content ul li div:nth-child(2) div:nth-child(1) span {
+  color: red;
+}
+#content ul li div:nth-child(2) div:nth-child(2) {
+  color: #a1a1a1;
+  font-size: 12px;
+  position: relative;
+}
+#content ul li div:nth-child(2) div:nth-child(2) span:nth-child(2) {
+  position: absolute;
+  right: 20px;
+  top: 0;
+  font-size: 12px;
+}
